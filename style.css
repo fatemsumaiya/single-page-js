@@ -104,10 +104,9 @@ h2 {
 
 #postContent {
     border-radius: 12px;
-    box-shadow: 0 0 1rem rgba(1,1,1,0.6);
-    border: 2px solid  #d3c1ff;
-    background-color: #d3c1ff;
+    border: 3px solid  #d3c1ff;
     color: rgba(132, 0, 255, 0.477);
+    background-color: rgb(229, 217, 244);
     padding: 30px;
     margin-bottom: 20px;
     margin-top: 0;
