@@ -7,5 +7,5 @@ Some notes:
 
 * Robert Romero: Implemented styling and a function allowing users to delete their most recent post 
 
-* Sumaiya Fatema: Implemented further styling 
+* Sumaiya Fatema: Contributed to additional styling changes, including background adjustments, font-type and layout
 
