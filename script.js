@@ -6,7 +6,8 @@ function renderSignUp() {
         <div class = "container1" >
         </div>
             <div class = "container2">
-                <p> MyTalk</p>
+                <p id="myTalk"> MyTalk</p>
+                <div class="con">
                 <h1>Sign Up</h1>
                 <form id="signupForm">
                     <label for="name">Name:</label>
@@ -17,6 +18,7 @@ function renderSignUp() {
                     <input type="password" id="password" placeholder="Enter your password"><br><br>
                     <button type="button" onclick="handleSignUp()">Sign Up</button>
                 </form>
+                </div>
 
                 </div>
                     <p id="statement">Join millions of other users on our social platform to grow share your life and also potentially grow your business.</p>

@@ -12,11 +12,17 @@ li{
     font: 26px;
 }
 p {
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
+    font-weight: 20;
     font-style: normal;
+}
+
+#statement {
+    margin-right: 30px;
+    margin-left: 30px;
+    padding-top: 20px;
 }
 
 #statement:hover {
@@ -48,13 +54,30 @@ body {
 #signupForm input[type="text"]:focus { 
     border: 5px solid #d3c1ff;
     color: rgba(132, 0, 255, 0.477);
+    border-radius: 500px;
 }
+
+.con {
+    color: #fff;
+    margin-left: 500px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-right: 500px;
+    border-radius: 12px;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.2);
+}   
 
 h1 {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 800;
     font-style: normal;
+    
+}
+
+#myTalk {
+    font-size: 50px;
+    text-shadow: 0 0 1rem rgba(30, 0, 47, 0.406);
 }
 
 #signupForm button {
@@ -81,9 +104,10 @@ h2 {
 
 #postContent {
     border-radius: 12px;
-    border: 3px solid  #d3c1ff;
+    box-shadow: 0 0 1rem rgba(1,1,1,0.6);
+    border: 2px solid  #d3c1ff;
+    background-color: #d3c1ff;
     color: rgba(132, 0, 255, 0.477);
-    background-color: rgb(229, 217, 244);
     padding: 30px;
     margin-bottom: 20px;
     margin-top: 0;
