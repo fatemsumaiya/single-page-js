@@ -2,19 +2,29 @@ const rootDiv = document.getElementById('root');
 
 function renderSignUp() {
     rootDiv.innerHTML = `
-        <img src = "https://loyoladigitaladvertising.wordpress.com/wp-content/uploads/2014/01/myspace-logo.gif">
-        <h1>Sign Up</h1>
-        <form id="signupForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" placeholder="Enter your name"><br>
-            <label for="email">Email:</label>
-            <input type="email" id="email" placeholder="Enter your email"><br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" placeholder="Enter your password"><br><br>
-            <button type="button" onclick="handleSignUp()">Sign Up</button>
-        </form>
+     <div class = "flex-container" >
+        <div class = "container1" >
+        </div>
+            <div class = "container2">
+                <p> MyTalk</p>
+                <h1>Sign Up</h1>
+                <form id="signupForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Enter your name"><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email"><br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your password"><br><br>
+                    <button type="button" onclick="handleSignUp()">Sign Up</button>
+                </form>
 
-        <p>Join millions of other users on our social platform to grow share your life and also potentially grow your business.</p>
+                </div>
+                    <p id="statement">Join millions of other users on our social platform to grow share your life and also potentially grow your business.</p>
+
+            </div>
+    </div>
+
+       
     `;
 
 }
@@ -36,10 +46,10 @@ function handleSignUp() {
 
 function renderHomePage() {
     rootDiv.innerHTML = `
-        <h1>Welcome, ${userName}!</h1>
-        <h2>Create a Post</h2>
+        <h1 id="Welcome" >Welcome, ${userName}!</h1>
+        <h2 >Create a Post</h2>
         <textarea id="postContent" placeholder="What's on your mind?"></textarea><br>
-        <button type="button" onclick="handleCreatePost()">Post</button>
+        <button type="button" class="b1" onclick="handleCreatePost()">Post</button>
           <button type="button" onclick="deleteLastPost()">Delete last post</button>
         <h3>Your Posts</h3>
         <ul id="postList"></ul>
