@@ -1,9 +1,11 @@
 # single-page-js
-Sprint 2: Introduction to javascript | Build a Single Page Application (SPA) using HTML, CSS, and Javascript by utilizing pair-programming with your group. 
+Sprint 2: Introduction to Javascript | Build a Single Page Application (SPA) using HTML, CSS, and Javascript by utilizing pair-programming with your group. 
 
-Team: Sumaiya Fatema, Robert Romero
+Created by Sumaiya Fatema and Robert Romero
 
-Robert Romero: Implemented styling and a function allowing users to delete their most recent post 
+Some notes: 
 
-Sumaiya Fatema: Implemented further styling 
+* Robert Romero: Implemented styling and a function allowing users to delete their most recent post 
+
+* Sumaiya Fatema: Implemented further styling 
 
