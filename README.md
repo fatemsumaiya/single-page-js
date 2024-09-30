@@ -5,7 +5,7 @@ Created by Sumaiya Fatema and Robert Romero
 
 Some notes: 
 
-* Robert Romero: Implemented styling and developed a function allowing users to delete their most recent post 
+* Robert Romero: Implemented styling and developed a JavaScript function allowing users to delete their most recent post 
 
 * Sumaiya Fatema: Contributed to additional styling changes, including background adjustments, font-type and layout
 
