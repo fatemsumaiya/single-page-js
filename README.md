@@ -1,11 +1,10 @@
-# single-page-js
-Sprint 2: Introduction to Javascript | Build a Single Page Application (SPA) using HTML, CSS, and Javascript by utilizing pair-programming with your group. 
+## Sprint: MyTalk | Building a Single Page Application (SPA) Utilizing Javascript
 
-Created by Sumaiya Fatema and Robert Romero
+Collaboratively developed **MyTalk**, one of the first websites in our Fullstack Web Development class. MyTalk allows users to sign up, and share their thoughts seamlessly.
 
-Some notes: 
+### Contributions:
+- **Robert Romero:** Styled the interface and implemented a JavaScript function for deleting the most recent post.  
+- **Sumaiya Fatema:** Enhanced styling, including background adjustments, font selection, and layout improvements.
 
-* Robert Romero: Implemented styling and developed a JavaScript function allowing users to delete their most recent post 
-
-* Sumaiya Fatema: Contributed to additional styling changes, including background adjustments, font-type and layout
-
+![GIF displaying the website](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWtncmNsaTZyZjNtcGZjZWpyMmEwbXF0N3g2bGwzMmx4M3Ftb29scCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY
+)
